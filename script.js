@@ -13,3 +13,20 @@ console.log({
    parrafoid,
    input
 })
+
+
+h1.innerHTML = 'Patito <br> Feo';  //Nos premite modificar el htmo que esta dentro de la etiqueta que se esta modificando el ht
+h1.innerText = 'Patito <br> Feo';  // covierte a texto todos los
+//console.log(h1.getAttribute('class'));
+
+//h1.setAttribute('class','rojo')//permite cambiar el valor del atributo
+h1.classList.add('parrafo'); //permite agregar un valor de atributo
+h1.classList.remove('parrafo');
+//h1.classList.toggle();// permite trabajar con eventos
+//h1.classList.contains(); // es una especie de condicional nos devuelve true o false
+
+
+input.value = "ghgjg"
+
+const img = document.createElement('img');
+img.setAttribute('src',)
